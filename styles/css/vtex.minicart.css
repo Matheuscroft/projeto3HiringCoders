@@ -1,0 +1,21 @@
+.minicartProductListContainer {
+    background-color: #212121;
+}
+
+.minicartCheckoutButton {
+    background-color: #212121;
+    color: lime;
+}
+
+.minicartSideBarContentWrapper {
+	background-color: #424242;
+}
+
+.minicartQuantityBadge {
+    background-color: lime;
+    color: black;
+}
+
+.minicartSummary {
+    color: white;
+}

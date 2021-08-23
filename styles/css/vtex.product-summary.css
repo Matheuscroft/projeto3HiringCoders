@@ -1,0 +1,39 @@
+.nameContainer {
+    background-color: grey;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.image {
+    width: max-content;
+}
+
+.brandName {
+    color: lightgray;
+    font-weight: 100;
+}
+
+.spacer {
+    background-color: grey;
+}
+
+.priceContainer {
+    background-color: grey;
+}
+
+.buyButtonContainer, .imageContainer {
+    background-color: grey;
+}
+
+.sellingPrice {
+    color: lime;
+    font-weight: bold;
+}
+
+.buttonDataContainer {
+    color: lime;
+    background-color: lime;
+}
+.buttonText {
+    color: lime;
+}

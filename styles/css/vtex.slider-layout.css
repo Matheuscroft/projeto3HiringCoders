@@ -1,0 +1,9 @@
+.sliderLayoutContainer {
+    background-color: #323232;
+}
+.infoCardContainer {
+    width: auto;
+}
+.paginationDot--isActive {
+    background-color: lime;
+}

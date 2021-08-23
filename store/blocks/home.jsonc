@@ -1,0 +1,379 @@
+{
+  "store.home": {
+    "blocks": [
+      "tab-layout#home",
+      "flex-layout.row",
+      "slider-layout",
+      "list-context.product-list#products"
+    ]
+  },
+  "flex-layout.row": {
+    "children": [
+    ]
+  },
+  "tab-layout#home": {
+    "children": [
+      "tab-list#home",
+      "tab-content#home"
+    ],
+    "props": {
+      "blockClass": "home",
+      "defaultActiveTabId": "home1"
+    }
+  },
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#promocao",
+      "tab-list.item#sport",
+      "tab-list.item#salgueiro",
+      "tab-list.item#signos",
+      "tab-list.item#divertidos",
+      "tab-list.item#7maravilhas",
+      "tab-list.item#guerreiros",
+      "tab-list.item#album1",
+      "tab-list.item#album2",
+      "tab-list.item#album3"
+    ]
+  },
+  "tab-list.item#promocao": {
+    "props": {
+      "tabId": "promocao",
+      "label": "Promoção",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#sport": {
+    "props": {
+      "tabId": "sport",
+      "label": "Sport"
+    }
+  },
+  "tab-list.item#salgueiro": {
+    "props": {
+      "tabId": "salgueiro",
+      "label": "Salgueiro"
+    }
+  },
+  "tab-list.item#signos": {
+    "props": {
+      "tabId": "signos",
+      "label": "Signos"
+    }
+  },
+  "tab-list.item#divertidos": {
+    "props": {
+      "tabId": "divertidos",
+      "label": "Divertidos"
+    }
+  },
+  "tab-list.item#7maravilhas": {
+    "props": {
+      "tabId": "7maravilhas",
+      "label": "7 Maravilhas"
+    }
+  },
+  "tab-list.item#guerreiros": {
+    "props": {
+      "tabId": "guerreiros",
+      "label": "Guerreiros"
+    }
+  },
+  "tab-list.item#album1": {
+    "props": {
+      "tabId": "album1",
+      "label": "Album 1"
+    }
+  },
+  "tab-list.item#album2": {
+    "props": {
+      "tabId": "album2",
+      "label": "Album 2"
+    }
+  },
+  "tab-list.item#album3": {
+    "props": {
+      "tabId": "album3",
+      "label": "Album 3"
+    }
+  },
+  
+  "tab-content#home": {
+    "children": [
+      "tab-content.item#promocao",
+      "tab-content.item#sport",
+      "tab-content.item#salgueiro",
+      "tab-content.item#signos",
+      "tab-content.item#divertidos",
+      "tab-content.item#7maravilhas",
+      "tab-content.item#guerreiros",
+      "tab-content.item#album1",
+      "tab-content.item#album2",
+      "tab-content.item#album3"
+    ]
+  },
+  "tab-content.item#promocao": {
+    "children": [
+      "search-result-layout.customQuery#promocao"
+    ],
+    "props": {
+      "tabId": "promocao"
+    }
+  },
+  "search-result-layout.customQuery#promocao": {
+    "props": {
+        "querySchema": {
+            "queryField": "palmeiras",
+            "mapField": "ft",
+            "skusFilter": "ALL_AVAILABLE",
+            "simulationBehavior": "skip"
+        }
+    },
+    "blocks": [
+        "search-result-layout.desktop",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+    ]
+},
+"search-result-layout.desktop": {
+  "children": [
+    "search-fetch-previous",
+    "search-content",
+    "search-fetch-more"
+  ]
+},
+  "tab-content.item#sport": {
+    "children": [
+      "info-card#sport"
+    ],
+    "props": {
+      "tabId": "sport"
+    }
+  },
+  "info-card#sport": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+  "tab-content.item#salgueiro": {
+    "children": [
+      "info-card#salgueiro"
+    ],
+    "props": {
+      "tabId": "salgueiro"
+    }
+  },
+  "info-card#salgueiro": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+  "tab-content.item#signos": {
+    "children": [
+      "info-card#signos"
+    ],
+    "props": {
+      "tabId": "signos"
+    }
+  },
+  "info-card#signos": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+  "tab-content.item#divertidos": {
+    "children": [
+      "info-card#divertidos"
+    ],
+    "props": {
+      "tabId": "divertidos"
+    }
+  },
+  "info-card#divertidos": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+  "tab-content.item#7maravilhas": {
+    "children": [
+      "info-card#7maravilhas"
+    ],
+    "props": {
+      "tabId": "7maravilhas"
+    }
+  },
+  "info-card#7maravilhas": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+  "tab-content.item#guerreiros": {
+    "children": [
+      "info-card#guerreiros"
+    ],
+    "props": {
+      "tabId": "guerreiros"
+    }
+  },
+  "info-card#guerreiros": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+  "tab-content.item#album1": {
+    "children": [
+      "info-card#album1"
+    ],
+    "props": {
+      "tabId": "album1"
+    }
+  },
+  "info-card#album1": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+  "tab-content.item#album2": {
+    "children": [
+      "info-card#album2"
+    ],
+    "props": {
+      "tabId": "album2"
+    }
+  },
+  "info-card#album2": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+  "tab-content.item#album3": {
+    "children": [
+      "info-card#album3"
+    ],
+    "props": {
+      "tabId": "album3"
+    }
+  },
+  "info-card#album3": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+
+  "product-summary.shelf#home": {
+    "children": [
+      "product-summary-name",
+      "product-summary-image",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "add-to-cart-button"
+    ],
+		"props": {
+			"blockClass": "productsshelf"
+		}
+  },
+  "add-to-cart-button": {
+    "props":{
+      "onClickBehavior": "add-to-cart"
+    }
+  },
+  "list-context.product-list#products":{
+    "blocks": ["product-summary.shelf#home"],
+    "children": ["slider-layout#products"],
+    "props":{
+      "category": "20",
+			"hideUnavailableItems": true,
+			"blockClass": "products"
+    }
+  },
+  "slider-layout#products": {
+    "props": {
+        "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 2,
+            "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": true,
+        "fullWidth": false,
+        "blockClass": "products",
+        "autoplay": {
+            "timeout": 5000,
+            "stopOnHover": true
+        }
+    }
+},
+  "slider-layout": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "false",
+      "blockClass": "carousel",
+      "fullWidth": true,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#banner",
+      "image#banner2"
+    ]
+  },
+  "image#banner": {
+    "props": {
+      "src": "assets/banner1.png",
+      "alt": "Banner wood sport",
+      "width": "70%",
+      "blockClass": "banner"
+    }
+  },
+  "image#banner2": {
+    "props": {
+      "src": "assets/banner2.png",
+      "alt": "Banner grandes guerreiros",
+      "width": "70%",
+      "blockClass": "banner"
+    }
+  }
+}
